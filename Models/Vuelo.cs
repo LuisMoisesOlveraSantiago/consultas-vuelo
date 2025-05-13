@@ -29,4 +29,5 @@ public class Vuelo {
     public DateTime FechaHoraSalida { get; set; } 
     [BsonElement("fecha_hora_llegada_aproximada")]
     public DateTime FechaHoraLlegadaAproximada { get; set; } 
+
 }
